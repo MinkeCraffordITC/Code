@@ -45,7 +45,7 @@ Step 2, 3 and 6 [example]:
     - print out information about the project's state
 
   
-12. Executable projects
+8. Executable projects
   - to generate a project that is aimed to provide an executable script, use rye init --script:
     - rye init --script my-project
     - cd my-project
@@ -54,7 +54,7 @@ The following structure will be created:
 
 ![image](https://github.com/user-attachments/assets/219dbb6d-b868-4b5c-9bcb-d381aa6e524b)
 
-
+### Note!
 The pyproject.toml will be generated with a [project.scripts] section containing a project_name script that points to the main() function of __init__.py. 
 After you synchronized your changes, you can run the script with rye run project_name
   - rye sync
