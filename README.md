@@ -35,10 +35,10 @@ The init command accepts a lot of options to customize what it generates.
     -  remove a dependency from the project again
 
 6. Working with the Project
-  - *rye run ruff* [example]
+  - *rye run ruff* (example)
     - runs executables
 
-Step 2, 3 and 6 [example]:
+Step 2, 3 and 6 (example):
 
 ![image](https://github.com/user-attachments/assets/7b336945-c860-48c3-a359-dc5e6858a073)
 
@@ -62,3 +62,22 @@ The pyproject.toml will be generated with a [project.scripts] section containing
 After you synchronized your changes, you can run the script with rye run project_name
   - *rye sync*
   - *rye run project_name*
+
+
+## Python
+
+1. Python Libraries
+  - polars
+  - rich
+
+2. Python Formatter
+  - ruff (using)
+  - black
+
+3. Python Linter
+  - pylance
+
+4. AI 
+  - chatgpt (general)
+  - github copilot (coding)
+  - sourcery 
