@@ -1,6 +1,8 @@
 # Developer Cheat sheet
 ______________________________________________
 
+## Rye
+
 1. To use Rye you need to have a pyproject.toml based Python project
   - rye init project_name
   - cd project_name
